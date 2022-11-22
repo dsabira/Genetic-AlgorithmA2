@@ -29,7 +29,7 @@ int main() {
     target[2].blue = 189;
 
     double error_perc = myGenome.calculate_overall_fitness(target, 3);
-
+    //unit tests
     cout << round(error_perc * 100.0) / 100.0 << endl;
 
     return 0;
